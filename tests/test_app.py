@@ -13,4 +13,4 @@ def test_hello_world(client):
     """Test the hello_world route."""
     response = client.get('/')
     assert response.status_code == 200
-    assert response.data.decode('utf-8') == "Hello World. CI/CD pipeline is working fine. Hurray!!"
+    assert response.data.decode('utf-8') == "Committing from my PC. CI/CD pipeline is working fine. Hurray!!"
