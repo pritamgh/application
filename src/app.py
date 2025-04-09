@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return "Committing from my PC. CI/CD pipeline is working fine. Hurray!!"
+    return "Testing after 2 months, Date: 09-04-2025"
 
 
 if __name__ == '__main__':
